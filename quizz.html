@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>NCC Bootcamp - Quiz System | Final Revision</title>
+
+<script src="quiz.js" defer></script>
+  <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+<div class="quiz-container" id="quizApp">
+  <div class="quiz-header">
+    <div class="quiz-title">
+      <h1>NCC Quiz App</h1>
+      <!-- <p>Final Revision Bootcamp</p> -->
+    </div>
+    <button class="dark-toggle" id="darkModeToggle">🌙 Dark Mode</button>
+  </div>
+
+  <div class="progress-area">
+    <div class="progress-bar-wrapper">
+     <div class="progress-fill" id="progressFill">fill it</div>
+    </div>
+    <div class="question-meta">
+      <span id="questionCounter">Question 1 of 10</span>
+      <span class="timer-box" id="timerDisplay"> 30s</span>
+    </div>
+  </div>
+
+  <div class="quiz-content" id="quizContent">
+    <!-- dynamic content: question, options, navigation, results -->
+  </div>
+  <footer>✅ Answers saved automatically | Refresh won't lose progress</footer>
+</div>
+
+</body>
+</html>
